@@ -2,10 +2,10 @@
 A very simple board game. 
 This is an exercise from http://www.cplusplus.com/forum/articles/12974/.
 
-Dungeon Crawl
+##### Dungeon Crawl
 Make a program that outputs a simple grid based gameboard to the screen using either numbers or characters.
 i.e.
-
+```
 . . . . . . . . . .
 
 .G. . . . . . . .
@@ -19,10 +19,10 @@ i.e.
 . . . . . .T. . .
 
 . . . . . . . . .X
-
+```
 
 or
-
+```
 0 0 0 0 0 0 0 0 0 0
 
 0 5 0 0 6 0 0 0 0 0
@@ -36,7 +36,7 @@ or
 0 0 0 0 0 0 7 0 0 0
 
 0 0 0 0 0 0 0 0 0 4
-
+```
 
 Allow the user (marked by G in the example) to move either up, down, left, or right each turn. If the player steps on a trap then they lose. If the make it to the treasure 'X' then they win.
 
